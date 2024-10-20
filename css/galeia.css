@@ -787,18 +787,75 @@ nav ul li a:active {
     margin: 0 auto;
   }
   
-  
-  @media (max-width: 768px) {
-    .submarino {
-      max-width: 100%; 
-      padding: 10px; 
+  @media (min-width: 768px) {
+    header {
+        padding: 15px 40px;
     }
-  }
-  
-  
-  @media (min-width: 769px) and (max-width: 1024px) {
-    .submarino {
-      max-width: 90%; 
-      padding: 15px;
+
+    nav ul {
+        gap: 40px;
+    }
+
+    section {
+        padding: 60px 40px;
+    }
+
+    .about-us-content, .routes-list, .service-item, .offer-container, .fleet-container, .servicio-cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-us-content .text-content, .about-us-content .image-content,
+    .routes-list .route-card, .service-item, .offer-item, .fleet-item, .servicio-card {
+        flex: 1;
+        margin: 20px;
+    }
+
+    .about-us-content img, .routes-list img, .offer-image, .fleet-image, .about-image, .route-image {
+        max-width: 100%;
+        height: auto;
+    }
 }
+
+/* Pantallas grandes (escritorio, min-width: 1024px) */
+@media (min-width: 1024px) {
+    header {
+        padding: 20px 80px;
+    }
+
+    nav ul {
+        gap: 60px;
+    }
+
+    section {
+        padding: 80px 60px;
+    }
+
+    .about-us-content, .routes-list, .offer-container, .fleet-container, .servicio-cards {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .about-us-content .text-content, .about-us-content .image-content,
+    .routes-list .route-card, .service-item, .offer-item, .fleet-item, .servicio-card {
+        margin: 20px;
+    }
+
+    .fleet-item {
+        max-width: 30%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 80px;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50px;
+    }
 }
