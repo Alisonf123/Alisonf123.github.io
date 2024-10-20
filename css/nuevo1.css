@@ -893,3 +893,39 @@ nav ul li a {
         padding: 10px;
     }
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .why-choose-us .choose-content {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Para pantallas menores a 480px (móviles) */
+@media (max-width: 480px) {
+    .reservation-section, .history-section, .terminal-section, .terminal-uyuni-section, .routes-section, .faq-section {
+        padding: 20px 10px;
+    }
+
+    .reservation-image {
+        max-width: 100%;
+    }
+
+    .reservation-content {
+        padding: 10px;
+    }
+
+    .footer-container {
+        padding: 10px;
+    }
+}
