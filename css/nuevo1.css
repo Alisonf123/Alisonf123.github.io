@@ -694,3 +694,186 @@ button:hover {
         padding: 10px;
     }
 }
+
+
+@media only screen and (max-width: 767px) {
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo img {
+        width: 150px; 
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+    }
+
+    
+    .reservation-section {
+        padding: 10px;
+    }
+
+    .reservation-image {
+        width: 100%; 
+        height: auto;
+    }
+
+    .reservation-content {
+        padding: 10px;
+    }
+
+    .reservation-content h2 {
+        font-size: 1.8rem; 
+    }
+
+    .reservation-content form label {
+        font-size: 1rem;
+    }
+
+    .reservation-content form input, 
+    .reservation-content form select, 
+    .reservation-content form textarea {
+        width: 100%; 
+        font-size: 1rem;
+    }
+
+    .reservation-content button {
+        width: 100%; 
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    
+    .history-section {
+        padding: 10px;
+    }
+
+    .history-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .history-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    
+    .choose-background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .background-image {
+        width: 100%; 
+        height: auto;
+    }
+
+    .choose-content {
+        padding: 10px;
+    }
+
+    
+    .terminal-section,
+    .terminal-uyuni-section {
+        padding: 10px;
+    }
+
+    .terminal-content h2, 
+    .terminal-uyuni-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .terminal-content p, 
+    .terminal-uyuni-content p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .explore-button {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    
+    .faq-section {
+        padding: 10px;
+    }
+
+    .faq-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .faq-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .faq-item p {
+        font-size: 1rem;
+    }
+
+    
+    .routes-section {
+        padding: 10px;
+    }
+
+    .routes-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .routes-content p {
+        font-size: 1rem;
+    }
+
+    .routes-content .explore-button {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-section ul {
+        padding: 0;
+        list-style: none;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-bottom p {
+        font-size: 0.9rem;
+    }
+}
