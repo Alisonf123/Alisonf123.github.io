@@ -910,22 +910,3 @@ nav ul li a {
         text-align: center;
     }
 }
-
-/* Para pantallas menores a 480px (móviles) */
-@media (max-width: 480px) {
-    .reservation-section, .history-section, .terminal-section, .terminal-uyuni-section, .routes-section, .faq-section {
-        padding: 20px 10px;
-    }
-
-    .reservation-image {
-        max-width: 100%;
-    }
-
-    .reservation-content {
-        padding: 10px;
-    }
-
-    .footer-container {
-        padding: 10px;
-    }
-}
