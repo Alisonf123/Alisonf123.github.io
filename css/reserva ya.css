@@ -363,3 +363,43 @@ button:active {
       padding: 15px;
 }
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    form input, form select, form button {
+        padding: 8px;
+    }
+
+    form button {
+        font-size: 1rem;
+    }
+}
