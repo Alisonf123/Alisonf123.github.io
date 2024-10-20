@@ -1,20 +1,4 @@
-@media (max-width: 991px){
-    Body{
-           padding:30px;
-        }
-    Form{
-          Width:340px;
-       }
-    }
-* {
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-}
 
 header {
     display: flex;
