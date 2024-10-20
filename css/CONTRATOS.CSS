@@ -462,22 +462,22 @@ nav ul li a:active {
 .submarino {
     width: 100%;
     height: auto;
-    max-width: 800px; /* Tamaño máximo en pantallas grandes */
+    max-width: 800px; 
     margin: 0 auto;
   }
   
-  /* Ajustes para pantallas pequeñas (móviles) */
+ 
   @media (max-width: 768px) {
     .submarino {
-      max-width: 100%; /* Se ajusta a todo el ancho de la pantalla */
-      padding: 10px; /* Espaciado adicional para mejor apariencia */
+      max-width: 100%; 
+      padding: 10px; 
     }
   }
   
-  /* Ajustes para pantallas medianas (tabletas) */
+  
   @media (min-width: 769px) and (max-width: 1024px) {
     .submarino {
-      max-width: 90%; /* Un poco más de ancho en pantallas más grandes */
+      max-width: 90%; 
       padding: 15px;
 }
 }
